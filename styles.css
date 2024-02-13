@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+@font-face {
+    font-family: tommy;
+    src: url(./MADE\ TOMMY\ Regular_PERSONAL\ USE.otf);
+}
+@font-face {
+    font-family: old;
+    src: url(./PlayfairDisplay-VariableFont_wght.ttf);
+}
+*{
+    font-family: tommy;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff00;
+    padding: 15px 50px 15px 25px;
+    top: 0;
+}
+
+.logo img {
+    height: 70px;
+    /* Adjust as needed */
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+
+.links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 15px;
+    font-family: tommy;
+    font-size: 18px;
+    
+}
+#homer{
+    font-weight: 600;
+    color: #f17319;
+    text-shadow: 0 0 2px #f17319;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    margin-left: 10px;
+}
+
+.social-icons img {
+    height: 30px;
+    width: 30px;
+    /* Adjust as needed */
+}
+.background {
+    background-image: url('./girl_silhouette_sunflower_182258_1920x1080.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.content {
+    margin-top: 10rem;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.content h1 {
+    font-size: 5em;
+    margin: 0;
+    font-family:old;
+    color: #90bbe6;
+}
+
+.content p {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    width: 600px;
+    color: #ffffff;
+}
+
+.content button {
+    background-color: #0000009c;
+    border-radius: 0.5rem;
+    color: #0d4882;
+    padding: 15px 50px;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    align-self: center;
+}
+
+.next-section {
+    padding: 50px;
+    background-color: #f0f0f0;
+}
